@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="jumbotron">
+        <div>
+            <div class="mt-5 result-question" *ngFor="let curr of question.questions; let index = index">
+                <div *ngIf="isValid(index)">Question {{index+1}}: </div>
+                {{curr.name}}
+                <div class="mt-2" *ngFor="let choice of curr.choices" >
+                    {{choice.name}}
+                </div>
+                <div>
+                    <div class="p-1 m-2 alert {{ userAnswers[0][1][index] === true ? 'alert-success ': 'alert-danger '}}">Your answer 
+                        is {{userAnswers[0][1][index]}}.</div>
+                </div>  
+            </div>
+            <div>
+                <button class="btn btn-info mb-2" (click)="getPercentage()"> Click for percentage:  </button>
+                {{userPercentage}}
+            </div>
+        </div>
+        <button class="btn btn-danger" (click)="clearAndGetHome()">Quit</button>
+    </div>
+</div>

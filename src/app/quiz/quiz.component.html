@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="jumbotron">
+        <div>
+            <div>
+                <div>
+                    Question {{pager.index + 1}} of {{pager.count}}.
+                </div>
+                <div>
+                    {{question.questions[pager.index].name}}
+                </div>
+                <div>
+                    <form>
+                        <div class="radio" *ngFor="let curr of question.questions[pager.index].choices">
+                            <label>
+                                <input type="radio" name="keys_on_hand" [value]="curr.id" [(ngModel)]="selected"
+                                    (change)="onSelect(pager.index,selected);">
+                                {{curr.name}}
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div *ngIf="finalQues">
+                <button class="btn btn-primary" *ngIf="updateNext" (click)="goTo(pager.index + 1);">Next
+                    Question</button>
+            </div>
+        </div>
+        <div class="mt-5" *ngIf="isLast(pager.index)">
+            <a>
+                <!-- [routerLink]="['/result']" -->
+                <button (click)="goToResult()" class="btn  btn-danger btn-lg"> Submit Quiz</button>
+            </a>
+            <!-- <button class="btn  btn-danger btn-lg" (click)="goToResult()"> Submit Quiz</button> -->
+        </div>
+    </div>
+</div>

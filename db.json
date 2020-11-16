@@ -1,0 +1,372 @@
+{
+  "Quiz": [
+    {
+      "id": 1,
+      "name": "Javascript Quiz",
+      "description": "This quiz is to evaluate the student",
+      "questions": [
+        {
+          "id": 1010,
+          "name": "______ JavaScript is also called client-side JavaScript.",
+          "questionTypeId": 1,
+          "choices": [
+            {
+              "id": 1055,
+              "questionId": 1010,
+              "name": "Microsoft",
+              "isAnswer": false
+            },
+            {
+              "id": 1056,
+              "questionId": 1010,
+              "name": "Navigator",
+              "isAnswer": true
+            },
+            {
+              "id": 1057,
+              "questionId": 1010,
+              "name": "Livewire",
+              "isAnswer": false
+            },
+            {
+              "id": 1058,
+              "questionId": 1010,
+              "name": "Native",
+              "isAnswer": false
+            }
+          ],
+          "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+          }
+        },
+        {
+          "id": 1011,
+          "name": " __________ JavaScript is also called server-side JavaScript.",
+          "questionTypeId": 1,
+          "choices": [
+            {
+              "id": 1055,
+              "questionId": 1010,
+              "name": "Microsoft",
+              "isAnswer": false
+            },
+            {
+              "id": 1057,
+              "questionId": 1010,
+              "name": "Navigator",
+              "isAnswer": false
+            },
+            {
+              "id": 1056,
+              "questionId": 1010,
+              "name": "LiveWire",
+              "isAnswer": true
+            },
+            {
+              "id": 1058,
+              "questionId": 1010,
+              "name": "Native",
+              "isAnswer": false
+            }
+          ],
+          "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+          }
+        },
+        {
+          "id": 1012,
+          "name": "_____ JavaScript statements embedded in an HTML page can respond to user events such as mouse-clicks, form input, and page navigation.",
+          "questionTypeId": 1,
+          "choices": [
+            {
+              "id": 1055,
+              "questionId": 1010,
+              "name": "Client-side",
+              "isAnswer": true
+            },
+            {
+              "id": 1057,
+              "questionId": 1010,
+              "name": "Server-side",
+              "isAnswer": false
+            },
+            {
+              "id": 1056,
+              "questionId": 1010,
+              "name": "Local",
+              "isAnswer": false
+            },
+            {
+              "id": 1058,
+              "questionId": 1010,
+              "name": "Native",
+              "isAnswer": false
+            }
+          ],
+          "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+          }
+        },
+        {
+          "id": 1013,
+          "name": "What should appear at the very end of your JavaScript?",
+          "questionTypeId": 1,
+          "choices": [
+            {
+              "id": 1055,
+              "questionId": 1010,
+              "name": "The </script>",
+              "isAnswer": true
+            },
+            {
+              "id": 1057,
+              "questionId": 1010,
+              "name": "The <script>",
+              "isAnswer": false
+            },
+            {
+              "id": 1056,
+              "questionId": 1010,
+              "name": "The END statement",
+              "isAnswer": false
+            },
+            {
+              "id": 1058,
+              "questionId": 1010,
+              "name": "None of the above",
+              "isAnswer": false
+            }
+          ],
+          "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+          }
+        },
+        {
+          "id": 1014,
+          "name": "Which of the following can't be done with client-side JavaScript?",
+          "questionTypeId": 1,
+          "choices": [
+            {
+              "id": 1055,
+              "questionId": 1010,
+              "name": "Validating a form",
+              "isAnswer": false
+            },
+            {
+              "id": 1057,
+              "questionId": 1010,
+              "name": "Sending a form's contents by email",
+              "isAnswer": false
+            },
+            {
+              "id": 1056,
+              "questionId": 1010,
+              "name": "Storing the form's contents to a database file on the server",
+              "isAnswer": true
+            },
+            {
+              "id": 1058,
+              "questionId": 1010,
+              "name": "None of the above",
+              "isAnswer": false
+            }
+          ],
+          "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+          }
+        },
+        {
+          "id": 1015,
+          "name": "Which of the following are capabilities of functions in JavaScript?",
+          "questionTypeId": 1,
+          "choices": [
+            {
+              "id": 1055,
+              "questionId": 1010,
+              "name": "Return a value",
+              "isAnswer": false
+            },
+            {
+              "id": 1057,
+              "questionId": 1010,
+              "name": "Accept parameters and Return a value",
+              "isAnswer": false
+            },
+            {
+              "id": 1056,
+              "questionId": 1010,
+              "name": "Accept parameters",
+              "isAnswer": true
+            },
+            {
+              "id": 1058,
+              "questionId": 1010,
+              "name": "None of the above",
+              "isAnswer": false
+            }
+          ],
+          "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+          }
+        },
+        {
+          "id": 1016,
+          "name": " ______ tag is an extension to HTML that can enclose any number of JavaScript statements.",
+          "questionTypeId": 1,
+          "choices": [
+            {
+              "id": 1055,
+              "questionId": 1010,
+              "name": "<Script>",
+              "isAnswer": true
+            },
+            {
+              "id": 1056,
+              "questionId": 1010,
+              "name": "<Body>",
+              "isAnswer": false
+            },
+            {
+              "id": 1057,
+              "questionId": 1010,
+              "name": "<Head>",
+              "isAnswer": false
+            },
+            {
+              "id": 1058,
+              "questionId": 1010,
+              "name": "<Title>",
+              "isAnswer": false
+            }
+          ],
+          "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+          }
+        },
+        {
+          "id": 1017,
+          "name": "What is the correct JavaScript syntax to write 'Hello World'?",
+          "questionTypeId": 1,
+          "choices": [
+            {
+              "id": 1055,
+              "questionId": 1010,
+              "name": "System.out.println('Hello World')",
+              "isAnswer": false
+            },
+            {
+              "id": 1056,
+              "questionId": 1010,
+              "name": "println ('Hello World')",
+              "isAnswer": false
+            },
+            {
+              "id": 1057,
+              "questionId": 1010,
+              "name": "document.write('Hello World')",
+              "isAnswer": true
+            },
+            {
+              "id": 1058,
+              "questionId": 1010,
+              "name": "response.write('Hello World')",
+              "isAnswer": false
+            }
+          ],
+          "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+          }
+        },
+        {
+          "id": 1018,
+          "name": "Inside which HTML element do we put the JavaScript?",
+          "questionTypeId": 1,
+          "choices": [
+            {
+              "id": 1055,
+              "questionId": 1010,
+              "name": "<js>",
+              "isAnswer": false
+            },
+            {
+              "id": 1057,
+              "questionId": 1010,
+              "name": "<scripting>",
+              "isAnswer": false
+            },
+            {
+              "id": 1056,
+              "questionId": 1010,
+              "name": "<script>",
+              "isAnswer": true
+            },
+            {
+              "id": 1058,
+              "questionId": 1010,
+              "name": "<javascript>",
+              "isAnswer": false
+            }
+          ],
+          "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+          }
+        },
+        {
+          "id": 1019,
+          "name": "Which of the following is not considered a JavaScript operator?",
+          "questionTypeId": 1,
+          "choices": [
+            {
+              "id": 1055,
+              "questionId": 1010,
+              "name": "new",
+              "isAnswer": false
+            },
+            {
+              "id": 1056,
+              "questionId": 1010,
+              "name": "this",
+              "isAnswer": true
+            },
+            {
+              "id": 1057,
+              "questionId": 1010,
+              "name": "delete",
+              "isAnswer": false
+            },
+            {
+              "id": 1058,
+              "questionId": 1010,
+              "name": "typeof",
+              "isAnswer": false
+            }
+          ],
+          "questionType": {
+            "id": 1,
+            "name": "Multiple Choice",
+            "isActive": true
+          }
+        }
+      ]
+    }
+  ],
+  "userAnswers": []
+}
