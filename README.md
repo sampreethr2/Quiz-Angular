@@ -1,6 +1,8 @@
 # Quiz
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.12.
+Run the Json server by using the commands 'npm install -g json-server' and 'json-server --watch db.json' for obtaining the quir data.
+Run angular project using 'ng serve -o'.
 
 ## Development server
 
